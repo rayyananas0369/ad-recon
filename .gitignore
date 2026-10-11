@@ -10,61 +10,27 @@ cracked.txt
 john_run.log
 bloodhound_collect.log
 
+# Logs
+bloodhound.log
+kerberoast.log
+user_create.log
+user_verify.log
+winrm_auto.log
+
+# Data folders
+bloodhound_data/
+
 # Wordlists (usually too big, and often sensitive)
 username.txt
-*.txt
 !requirements.txt
 !README.md
+
+# Other scripts (personal)
+demoscript.sh
+dump.sh
 
 # Editor / OS junk
 .vscode/
 .idea/
 *.swp
 .DS_Store
-# Sensitive recon output
-username.txt
-recon_*/
-*.hashes
-*.pot
-cracked.txt
-live_confirmed.txt
-live_candidates.txt
-scan_targets.txt
-dc_candidates.txt
-
-# Logs
-bloodhound.log
-kerberoast.log
-user_create.log
-user_verify.log
-winrm_auto.log
-
-# Data folders
-bloodhound_data/
-
-# Other scripts (personal)
-demoscript.sh
-dump.sh
-# Sensitive recon output
-recon_*/
-*.hashes
-*.pot
-cracked.txt
-live_confirmed.txt
-live_candidates.txt
-scan_targets.txt
-dc_candidates.txt
-
-# Logs
-bloodhound.log
-kerberoast.log
-user_create.log
-user_verify.log
-winrm_auto.log
-
-# Data folders
-bloodhound_data/
-
-# Other scripts (personal)
-demoscript.sh
-dump.sh
