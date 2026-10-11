@@ -1,0 +1,23 @@
+# Recon output (contains sensitive data — never commit!)
+recon_*/
+live_confirmed.txt
+live_candidates.txt
+scan_targets.txt
+dc_candidates.txt
+*.hashes
+*.pot
+cracked.txt
+john_run.log
+bloodhound_collect.log
+
+# Wordlists (usually too big, and often sensitive)
+username.txt
+*.txt
+!requirements.txt
+!README.md
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
