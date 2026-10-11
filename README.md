@@ -18,13 +18,13 @@ hashes with John, enumerates users/groups, and collects BloodHound data.
 
 | Tool | Purpose | Install |
 |---|---|---|
-| `fping` | Host sweep | `apt install fping` |
-| `nmap` | Port scan / DC discovery | `apt install nmap` |
-| `ldap-utils` | RootDSE / LDAP queries | `apt install ldap-utils` |
-| `impacket` | AS-REP roasting | `pip install impacket` |
-| `john` | Hash cracking | `apt install john` |
-| `netexec` (nxc) | SMB checks | `pip install netexec` |
-| `bloodhound` | AD graph collection | `pip install bloodhound` |
+| `fping` | Host sweep |
+| `nmap` | Port scan / DC discovery | 
+| `ldap-utils` | RootDSE / LDAP queries |
+| `impacket` | AS-REP roasting |
+| `john` | Hash cracking |
+| `netexec` (nxc) | SMB checks | 
+| `bloodhound` | AD graph collection | 
 
 ## Usage
 
